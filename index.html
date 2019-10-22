@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Global Visi Media</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, inital-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/font/style.css">
+  <link rel="stylesheet" type="text/css" href="css/swiper.min.331.css" />
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="script/main.js"></script>
+  <script src="script/swiper.min.331.js"></script>
+  <script src="script/swiper.jquery.min.331.js"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVLeQy7lg_PjRHzdZFGUX2PfG6GRHXB3A&callback=initMap">
+  </script>
+ <!--  <script>
+      function initMap() {
+        var uluru = {lat: -6.189990, lng: 106.798748};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 18,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script> -->
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <div id="header">
+    <nav class="navbar navbar-inverse navbar-fixed-top centering-layout">
+      <div class="container-fluid">
+        <div class="navbar-header">
+            <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+          </button> -->
+          <div type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-hamburger_menu"></span>
+          </div>
+          <a class="navbar-brand" href="#home">
+            <span class="icon-logoGVM"></span>
+          </a>
+        </div>
+        <div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <div class="btn-back">
+              <span class="back icon-close"></span>
+            </div>
+            <ul class="nav navbar-nav">
+              <li class="about"><a href="#about" name="about">About<hr></a></li>
+              <li class="product"><a href="#product" name="product">Product<hr></a></li>
+              <li class="career"><a href="#career" name="career">Career<hr></a></li>
+              <li class="contact"><a href="#contact" name="contact">Contact<hr></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav> 
+  </div>
+  <section id="home" class="container-fluid ">
+    <div class="middle">
+      <div class="circle"></div>
+    </div>
+    <div class="home-text">
+      <h2>GVM is Community</h2>
+      <h5>We are media that is created and controlled by a community</h5>
+      <a href="#about" class="btn btn-default">Learn More</a>
+    </div>
+  </section>
+
+  <!-- About Page -->
+  <section id="about" class="container-fluid">
+    <div class="about-title">
+      <h1>About</h1>
+      <p class="text-muted">Lorem ipsum dolor sit amet, legimus veritus assueverit ei his. Vix ut saperet menandri. Mei id oporteat corrumpit. No scripta mentitum copiosae nam. Ut eam tamquam discere vulputate.</p>
+      <hr>
+    </div>
+    <div class="list-about">
+        <ul class="list-inline">
+          <li class="col-sm-4">
+            <span class="icon icon-tech"></span>
+            <span class="list-title">
+              <p>TEKNOLOGI</p>
+            </span>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet, legimus veritus assueverit ei his. Vix ut saperet menandri. Mei id oporteat corrumpit. No scripta mentitum copiosae nam.
+            </p>
+          </li>
+          <li class="col-sm-4">
+            <span class="icon icon-global"></span>
+            <span class="list-title">
+              <p>GLOBAL</p>
+            </span>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet, legimus veritus assueverit ei his. Vix ut saperet menandri. Mei id oporteat corrumpit. No scripta mentitum copiosae nam.
+            </p>
+          </li>
+          <li class="col-sm-4">
+            <span class="icon icon-community"></span>
+            <span class="list-title">
+              <p>KOMUNITAS</p>
+            </span>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet, legimus veritus assueverit ei his. Vix ut saperet menandri. Mei id oporteat corrumpit. No scripta mentitum copiosae nam.
+            </p>
+          </li>
+        </ul>
+    </div>
+  </section>
+
+  <!-- Product Page -->
+  <section id="product" class="container-fluid">
+    <div class="swiper-container">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide row">
+                <div class="col-md-3 col-md-pull-9">
+                  <span>
+                    <h1>Product</h1>
+                  </span>
+                  <span class="pull-left product-logo">
+                    <img src="assets/images/logo_opini.png">
+                  </span>
+                  <span class="pull-left">
+                    <p>Opini is a social good cause platform for people who have the same concern for improvement, betterment and progress of their surrounding.</p>
+                  </span>
+                  <span class="pull-left">
+                    <button><a href="http://opini.id/" target="_blank">Visit Web</a></button>
+                  </span>
+                </div>
+                <div class="col-md-9 col-md-push-3">
+                  <span><img src="assets/images/product_opini.png"></span>
+                </div>
+              </div>
+              <div class="swiper-slide row">
+                <div class="col-md-3 col-md-pull-9 ">
+                  <span>
+                    <h1>Product</h1>
+                  </span>
+                  <span class="pull-left product-logo">
+                    <img src="assets/images/logo_bolalob.png">
+                  </span>
+                  <span  class="pull-left">
+                    <p>Bolalob is a futsal community aggregator, as a hub to get news, things, connection and network for futsal community players in the simplest way both online and offline.</p>
+                  </span>
+                  <span>
+                    <button><a href="https://bolalob.com/" target="_blank">Visit Web</a></button>
+                  </span>
+                </div>
+                <div class="col-md-9 col-md-push-3 ">
+                  <span><img src="assets/images/product_bolalob.png"></span>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="col-md-3 col-md-pull-9 ">
+                  <span>
+                    <h1>Product</h1>
+                  </span>
+                  <span class="pull-left product-logo">
+                    <img src="assets/images/logo_womantalk.png">
+                  </span>
+                  <span class="pull-left">
+                    <p>WomanTalk is a practical and useful tips media for women in their busiest stage of life, offering best practices to help women to live their life to the fullest.</p>
+                  </span>
+                  <span>
+                    <button><a href="https://womantalk.com/" target="_blank">Visit Web</a></button>
+                  </span>
+                </div>
+                <div class="col-md-9 col-md-push-3 ">
+                  <span><img src="assets/images/product_wt.png"></span>
+                </div>
+              </div>
+          </div>
+          <!-- Add Pagination -->
+          <!-- <div class="swiper-pagination"></div> -->
+          <!-- Add Arrows -->
+          <div class="swiper-button-next">
+            <span class="icon-panahkanan"></span>
+          </div>
+          <div class="swiper-button-prev">
+            <span class="icon-panahkiri"></span>
+          </div>
+      </div>
+  </section>
+
+  <!-- Career Page -->
+  <section id="career" class="container-fluid">
+    <div id="career-one">
+      <div class="quote">
+        <blockquote>We are seeking people who wants to create real positive impacts and build something meaningful for the world.</blockquote>
+        <hr>
+      </div>
+      <div class="text">
+        <p>Some of jobs that available in GVM Networks</p>
+        <div class="list-career">
+          <ul class="list-inline pagination3">
+            <li class="col-md-4 vertical-align">
+                <span>
+                  <h4 class="job-title">Mobile Engineer - Android</h4>
+                </span>
+                <p class="job-detail">Ever dreamed involved in the development of application you downloaded and enjoyed by millions of people in Indonesia?</p>
+            </li>
+            <li class="col-md-4 vertical-align">
+                <span>
+                  <h4 class="job-title">Technical Architect</h4>
+                </span>
+                <p class="job-detail">Role: interact with stakeholders, design and technical team members, designing technical solutions, Produce technical designs and</p>
+            </li>
+            <li class="col-md-4 vertical-align">
+                <span>
+                  <h4 class="job-title">Software Engineer</h4>
+                </span>
+                <p class="job-detail">As a software engineer, you will bring solutions that change the lives of millions of users. Here at GVM, you will work with a small team and...</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="buttoncareer">
+        <button><a>Browse all job<a></button>
+      </div>
+      <div class="job-image">
+        <img src="assets/images/career.jpg">
+      </div>
+    </div>
+    <!-- Available jobs -->
+    <div id="jobs">
+      <span>
+        <h2>Available Jobs</h2>
+      </span>
+      <ul class="list">
+        <li class="col-xs-12 col-sm-4 name">
+          <h4><a href="#mobileAndroid">Software Development Engineer In-Test</a></h4>
+          <p class="job-detail">You as a test engineer will be working in designing and developing automation test cases for various products in Tokopedia. You may also participate...</p>
+          <a href="#mobileAndroid">show more</a>
+        </li>
+        <li class="col-xs-12 col-sm-4 name">
+          <h4><a href="#mobileAndroid">Mobile Engineer - Android</a></h4>
+          <p class="job-detail">Ever dreamed involved in the development of application you downloaded and enjoyed by millions of people in Indonesia?</p>
+          <a href="#mobileAndroid">show more</a>
+        </li>
+        <li class="col-xs-12 col-sm-4 name">
+          <h4><a href="#mobileAndroid">Software Engineer</a></h4>
+          <p class="job-detail">As a software engineer, you will bring solutions that change the lives of millions of users. Here at Tokopedia, you will work with a small team and...</p>
+          <a href="#mobileAndroid">show more</a>
+        </li>
+        <li class="col-xs-12 col-sm-4 name">
+          <h4><a href="#mobileAndroid">Software QA Engineer</a></h4>
+          <p class="job-detail">Responsibilities: Ensure the highest quality standard is met for products cleared for deployment to production. Understands all the testing concepts...</p>
+          <a href="#mobileAndroid">show more</a>
+        </li>
+        <li class="col-xs-12 col-sm-4 name">
+          <h4><a href="#mobileAndroid">Site Reliability Engineer</a></h4>
+          <p class="job-detail">As a member on the Site Reliability Engineer team, you will work on large-scale system design and troubleshooting, and be fluent in systems...</p>
+          <a href="#mobileAndroid">show more</a>
+        </li>
+       <li class="col-xs-12 col-sm-4 name">
+          <h4><a href="#mobileAndroid">Mobile Engineer - Android</a></h4>
+          <p class="job-detail">Ever dreamed involved in the development of application you downloaded and enjoyed by millions of people in Indonesia?</p>
+          <a href="#mobileAndroid">show more</a>
+        </li>
+        <li class="col-xs-12 col-sm-4 name">
+          <h4><a href="#mobileAndroid">Mobile Engineer - iOS</a></h4>
+          <p class="job-detail">Ever dreamed involved in the development of application you downloaded and enjoyed by millions of people in Indonesia? Tokopedia offers the...</p>
+          <a href="#mobileAndroid">show more</a>
+        </li>
+        <li class="col-xs-12 col-sm-4 name">
+          <h4><a href="#mobileAndroid">Software Engineer - Mobile Web</a></h4>
+          <p class="job-detail">Responsibilities and Requirements: Expertise in one modern clientside javascript framework (react, vue, ionic, angular). Familiar with EcmaScript 6,...</p>
+          <a href="#mobileAndroid">show more</a>
+        </li>
+        <li class="col-xs-12 col-sm-4 name">
+          <h4><a href="#mobileAndroid">Golang Developer</a></h4>
+          <p class="job-detail">As a backend developer on Tokopedia's commerce platform, solve interesting problems at scale, help build Indonesia’s fastest growing Internet...</p>
+          <a href="#mobileAndroid">show more</a>
+        </li>
+        <li class="col-xs-12 col-sm-4 name">
+          <h4><a href="#mobileAndroid">System Administrator</a></h4>
+          <p class="job-detail">Responsibilities:Installation, configuration, and maintenance of Linux operating system (proficient in CentOS and Ubuntu is preferable).Install in...</p>
+          <a href="#mobileAndroid">show more</a>
+        </li>
+        <li class="col-xs-12 col-sm-4 name">
+          <h4><a href="#mobileAndroid">Mobile Engineer - React Native</a></h4>
+          <p class="job-detail">As a Mobile Engineer - React Native, you will bring solutions that change the lives of millions of users. Here at Tokopedia, you will work with a...</p>
+          <a href="#mobileAndroid">show more</a>
+        </li>
+        <li class="col-xs-12 col-sm-4 name">
+          <h4 ><a href="#mobileAndroid">Software Development Engineer In-Test</a></h4>
+          <p class="job-detail">You as a test engineer will be working in designing and developing automation test cases for various products in Tokopedia. You may also participate...</p>
+          <a href="#mobileAndroid">show more</a>
+        </li>
+        <li class="col-xs-12 col-sm-4 name">
+          <h4><a href="#mobileAndroid">Mobile Engineer - Android</a></h4>
+          <p class="job-detail">Ever dreamed involved in the development of application you downloaded and enjoyed by millions of people in Indonesia?</p>
+          <a href="#mobileAndroid">show more</a>
+        </li>
+        <li class="col-xs-12 col-sm-4 name">
+          <h4><a href="#mobileAndroid">Software Engineer</a></h4>
+          <p class="job-detail">As a software engineer, you will bring solutions that change the lives of millions of users. Here at Tokopedia, you will work with a small team and...</p>
+          <a href="#mobileAndroid">show more</a>
+        </li>
+      </ul>
+      <div class="center">
+        <ul class="pagination"></ul>
+      </div>
+    </div>
+
+    <!-- Form Lamaran -->
+    <div id="mobileAndroid">
+      <div class="roleDetail">
+        <span class="backto">
+           <p style="font-size: 12px; font-weight: bold;"> &lt BACK </p>
+        </span>     
+        <h3>Mobile Engineer - Android</h3>
+        <p>Ever dreamed involved in the development of application you downloaded and enjoyed by millions of people in Indonesia? Tokopedia offers the opportunity to develop applications that are useful for many people as well as opportunities for the implementation of new technologies every day! You will contribute with the team that is excited and dare to dream big. In addition, you will get new challenges every day.</p>
+        <h4>Responsibilities</h4>
+        <ul>
+          <li>Develop Tokopedia's application for Android.</li>
+          <li>Able to develop prototype quickly.</li>
+          <li>Excited with clean code and design pattern</li>
+        </ul>
+        <h4>Requirements</h4>
+        <ul>
+          <li>Bachelor's degree in Information Technology or related fields.</li>
+          <li>Proficient and experienced in SDK Android.</li>
+          <li>Have high competence in data structure, algorithm, and software design.</li>
+          <li>Familiar with HTML, CSS, JavaScript, SOAP, REST, JSON, Java, Objective-C, or C++</li>
+          <li>Experienced in integrating API server and social network API.</li>
+          <li>Having portfolio / uploaded apps in play store</li>
+        </ul>
+        <div class="btn-apply">
+          <button class="apply">
+            <a>Apply</a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="formLamaran">
+        <div class="form">
+          <span class="backto">
+             <p style="font-size: 12px; font-weight: bold;"> &lt BACK </p>
+          </span>
+          <form class="upload-form">
+            <h3>Apply for this Position</h3>
+            <i class="text-danger">*wajib diisi</i>
+            <div class="dataForm">
+              <div class="form-group col-xs-12 col-sm-6 col-md-6">
+                <label for="name">Name<span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="name" placeholder="Name" required minlength=5>
+              </div>
+              <div class="form-group col-xs-12 col-sm-6 col-md-6">
+                <label for="email">Email<span class="text-danger">*</span></label>
+                <input type="email" class="form-control" id="email" placeholder="Email" required>
+              </div>
+              <div class="form-group col-xs-12 col-sm-6 col-md-6">
+                <label for="telepon">Telepon<span class="text-danger">*</span></label>
+                <input class="form-control" id="telepon" placeholder="Telepon" maxlength=10 required>
+              </div>
+              <!-- <div> -->
+                <div class="form-group col-xs-12 col-sm-6 col-md-6 file">
+                  <input type="file" name="cv" max-file-size=13 required data-max-size="7248080" class="upload-file" accept=".doc,.docs,.pdf">
+                  <div class="fileinput fileinput-new" data-provides="fileinput">
+                  </div>
+                </div>
+                <div class="form-group col-xs-12 col-sm-6 col-md-6 button-group">
+                  <button class="btn btn-default cancel"><a>Cancel</a></button>
+                  <button class="btn btn-default submit" type="submit" value="Submit"><a>Send</a></button>
+                </div>
+              <!-- </div>   -->
+              <!-- <div class="button">
+                <button class="cancel">Cancel</button>
+                <button class="btn btn-default" type="submit" value="submit">Send</button>
+              </div> -->
+            </div>
+          </form>
+        </div>
+      </div>
+  </section>
+  <!-- Contact Page -->
+  <section id="contact" class="container-fluid">
+    <div class="contact-title">
+      <h1>Halo, apa yang bisa kami bantu?</h1>
+      <p>Hubungi kami kapan saja jika kamu memerlukan bantuan dari kami! 
+      atau tinggalkan email, dan kami akan menghubungi kamu!</p>
+      <hr>
+    </div>
+    <div class="contact-detail">
+      <ul class="list-inline">
+        <li class="col-sm-4">
+          <span class="icon icon-location"></span>
+          <span class="contact-address">
+            <p>
+            Wisma 77 Lantai 9
+            Jalan Letnan. S. Parman Kav. 77,
+            Palmerah, RT.6/RW.3, Slipi, Palmerah,
+            Jakarta Barat 11410
+            </p>
+          </span>
+        </li>
+        <li class="col-sm-4">
+          <span class="icon icon-call"></span>
+          <span class="contact-number">
+            <p class="new">(021) 29675920</p>
+          </span>
+        </li>
+        <li class="col-sm-4">
+          <span class="icon icon-mail"></span>
+          <span class="contact-mail">
+            <p>contact@gvmnetworks.com</p>
+          </span>
+        </li>
+      </ul>
+    </div>
+    <div id="map"></div>
+    <!-- <div class="contact-image">
+      <img src="assets/images/map.jpg">
+    </div> -->
+  </section>  
+  <div id="job"></div>
+</body>
+</html>
